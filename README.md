@@ -30,7 +30,3 @@
 
 ![factorial](https://github.com/user-attachments/assets/cb6034e1-28f1-4c70-9b53-c8835e57e7af)
 
-
-07. calculate Factorial using Functions
-
-![factorial1](https://github.com/user-attachments/assets/a3dba18b-60e1-4298-b29b-6deba71b7bec)
