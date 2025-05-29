@@ -1,0 +1,74 @@
+2025.05.28
+
+01. % Function to add two numbers
+% Input: x, y - numeric values
+% Output: sum - sum of x and y
+function sum = addNumbers(x,y)
+    sum=x+y;
+
+end
+
+
+
+02. 
+%calling Multiple variables
+
+function[add, sub, mul] = operations(a,b)
+add = a+b;
+sub = a-b;
+mul = a*b;
+
+end
+
+
+03.
+function greet(name)
+disp(['Hello ', name]);
+end
+
+04.
+function piValue = getPi()
+piValue = 3.1416;
+end
+
+05.
+function myFunction()
+disp('hello, this function has no inputs')
+end
+
+
+06. factorial
+
+% Get user input
+n = input('Enter a number: ');
+
+% Check if input is valid
+if n < 0
+    error('Factorial is undefined for negative numbers.');
+elseif n == 0 || n == 1
+    fact = 1;
+else
+    fact = 1;
+    for i = 2:n
+        fact = fact * i;
+    end
+end
+
+% Display the result
+disp(['Factorial of ', num2str(n), ' is ', num2str(fact)]);
+
+
+07.using Functions
+
+function fact = factorial(n)
+    if n < 0
+        error('Factorial is undefined for negative numbers.');
+    else
+        fact = 1; % Initialize factorial value
+        for i = 1:n
+            fact = fact * i;
+        end
+    end
+    disp(['Factorial of ', num2str(n), ' is ', num2str(fact)]);
+end
+
